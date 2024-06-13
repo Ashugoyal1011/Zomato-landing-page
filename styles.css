@@ -6,9 +6,7 @@
 }
 #main_pic_div{
     background:url(images/heroSectionBackground.png);
-    height: 70vh;   
-    
-    display: flex;
+    min-height: 70vh;   
     background-position: center;
     background-size: cover;
     
@@ -45,6 +43,13 @@
     color: white;
     display: none;
 }
+.user_icon_2{
+    padding-top: 20px;
+    height: 20px;
+    width: 20px;
+    color: white;
+    display: none;
+}
 @media only screen and (max-width:600px){
     .user_icon{
         display: flex;
@@ -56,5 +61,8 @@
         min-height: 80vh;
     }
 }
-
-
+.Zomato_logo{
+    margin-top: 40px;
+    height: 70px;
+    width: 300px;
+}
