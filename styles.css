@@ -94,6 +94,32 @@
     width: 70%;
     
 }
+.Collector_bar{
+    display: flex;
+    flex-direction: column;
+}
+.Collector_section_1{
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    /* background-color:aqua; */
+    gap: 20px;
+
+}
+.Order_card{
+    height: 250px;
+    width: 530px;
+    /* background-color: black; */
+    margin: 50px 0 0 250px;
+    border-radius: 10px;
+    border: 1px solid rgb(208, 204, 204);
+}
+.Order_card:hover{
+    transform: scale(1.05);
+    transition-duration: 500ms;
+    
+
+}
 @media only screen and (max-width:600px){
     .user_icon{
         display: flex;
