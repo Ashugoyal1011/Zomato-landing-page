@@ -109,10 +109,187 @@
 }
 .Order_card:hover{
     transform: scale(1.05);
-    transition-duration: 500ms;
+    /* transition: all 1s ease; */
+    overflow: hidden;
+    transition-duration: 300ms;
+    cursor: pointer;
     
 
 }
+.Zomato_logo{
+    margin-top: 40px;
+    height: 70px;
+    width: 300px;
+}
+.Collection_section{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+.card1{
+    height: 300px;
+    width: 250px;
+    background: url(images/collection1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    position:relative;
+    border-radius: 10px;
+}
+.card1:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-duration: 300ms;
+}
+.card2:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-duration: 300ms;
+}
+.card3:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-duration: 300ms;
+}
+.card4:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-duration: 300ms;
+}
+
+.card1 span{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+.card2{
+    height: 300px;
+    width: 250px;
+    background: url(images/collection2.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    position:relative;
+    border-radius: 10px;
+}
+
+.card2 span{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+.card3{
+    height: 300px;
+    width: 250px;
+    background: url(images/collection3.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    position:relative;
+    border-radius: 10px;
+}
+
+.card3 span{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+.card4{
+    height: 300px;
+    width: 250px;
+    background: url(images/collection4.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    position:relative;
+    border-radius: 10px;
+}
+
+.card4 span{
+    position: absolute;
+    bottom: 0;
+    /* color: red; */
+    /* font-weight: 400; */
+    left: 20px;
+}
+.get_the_app{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    background-color:rgb(255, 251, 247);
+}
+.img_moblie_app{
+    background: url(images/mobileBanner.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    margin-left: 200px;
+}
+.get_the_app_info *{
+    margin: 5px 0 20px 0;
+    font-weight: 300;
+}
+.get_the_app_info button{
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(244, 103, 103);
+}
+.get_the_app_info .Email_input{
+    width: 300px;
+    padding: 12px;
+    border-radius: 7px;
+    color: rgb(212, 207, 207);
+    border: 1px solid rgb(212, 207, 207);
+    font-size: 17px;
+}
+.get_the_app_info img{
+    height: 50px;
+    margin-right: 30px;
+}
+.Explore_options{
+    height: 350px;
+    /* background-color: aqua; */
+    padding: 20px;
+    margin-bottom: 80px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.Explore_options_Writing{
+    margin-top: 50px;
+    width: 1100px;
+    font-size: 30px;
+    /* border: 1px solid rgb(190, 189, 189); */
+}
+.Explore_options1, .Explore_options2, .Explore_options3{
+    width: 1100px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(222, 220, 220);
+    position: relative;
+    font-size: large;
+    color: rgb(174, 174, 175);
+}
+#arrow{
+    position: absolute;
+    right: 20px;
+}
+
+
 @media only screen and (max-width:600px){
     .user_icon{
         display: flex;
@@ -124,8 +301,4 @@
         min-height: 80vh;
     }
 }
-.Zomato_logo{
-    margin-top: 40px;
-    height: 70px;
-    width: 300px;
-}
+
